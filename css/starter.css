@@ -1,0 +1,534 @@
+body {
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+  border: 1px dashed #245580;
+}
+
+.container{
+	width: 100%;
+	height:auto;
+}
+.starter-show{
+	height: 400px;
+	width:100%;
+	border: 1px dashed #245580;
+}
+
+.items .ct-title {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.tc-footer {
+	background: #f2f2f2;
+	padding: 40px 0 80px;
+	min-width: 1000px
+}
+.tc-footer .tc-footer-columns {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center
+}
+.tc-footer .columns {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 22.5%;
+	margin-bottom: 30px
+}
+.tc-footer .columns.column-follow {
+	width: 10%
+}
+.tc-footer .columns h3 {
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 10px;
+	font-weight: 400;
+	padding-left: 10px
+}
+.tc-footer .columns ul {
+	padding-left: 10px
+}
+.tc-footer .columns ul li, .tc-footer .columns ul li a {
+	font-size: 12px;
+	color: #777;
+	display: block
+}
+.tc-footer .columns ul li {
+	line-height: 26px
+}
+.tc-footer .columns ul li a:hover {
+	color: #3c3c3c
+}
+.tc-footer .columns .footer-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px
+}
+.tc-footer .columns .icon-1 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.png);
+	width: 18px;
+	height: 15px;
+	background-position: -34px -19px
+}
+.tc-footer .columns .icon-1:hover {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.png);
+	background-position: -54px -19px
+}
+.tc-footer .columns .icon-2 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.png);
+	width: 15px;
+	height: 19px;
+	background-position: -17px -19px
+}
+.tc-footer .columns .icon-2:hover {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.png);
+	background-position: 0px -19px
+}
+.tc-footer .column-certification {
+	width: 20%
+}
+.tc-footer .column-certification .certification {
+	margin-bottom: 15px;
+	font-size: 0
+}
+.tc-footer .column-certification .certification .ct-img {
+	display: inline-block;
+	vertical-align: top;
+	width: 26%
+}
+.tc-footer .column-certification .certification .information {
+	display: inline-block;
+	vertical-align: top;
+	width: 74%
+}
+.tc-footer .column-certification .certification .information h3 {
+	font-size: 12px;
+	margin-bottom: 0
+}
+.tc-footer .column-certification .certification .information li {
+	line-height: 20px
+}
+.tc-footer .column-certification .certification .information .text {
+	margin-right: 15%
+}
+.tc-footer .tc-footer-copyright {
+	text-align: center
+}
+.tc-footer .tc-footer-copyright .department, .tc-footer .tc-footer-copyright .department a {
+	font-size: 14px;
+	color: #777
+}
+.tc-footer .tc-footer-copyright .department a:hover {
+	color: #3c3c3c
+}
+.tc-footer .tc-footer-copyright .department {
+	border-bottom: 1px solid #e3e3e3;
+	line-height: 35px;
+	margin: 0 auto 15px;
+	max-width: 1200px
+}
+.tc-footer .tc-footer-copyright .department .icon-tc {
+	display: inline-block;
+	width: 94px;
+	height: 16px;
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	margin-right: 20px;
+	background-position: 0px 0px
+}
+.tc-footer .tc-footer-copyright .department a {
+	white-space: nowrap;
+	margin: 0 5px
+}
+.tc-footer .tc-footer-copyright .links {
+	line-height: 20px
+}
+.tc-footer .tc-footer-copyright .links, .tc-footer .tc-footer-copyright .links a {
+	color: #5a5e67;
+	font-size: 12px;
+	margin: 0 5px
+}
+.tc-footer .tc-footer-copyright .links a:hover {
+	color: #c6c6c6
+}
+.tc-footer .tc-footer-copyright .links .icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin-right: 5px
+}
+.tc-footer .tc-footer-copyright .links .line-2 .slide {
+	margin: 0 5px
+}
+.tc-footer .tc-footer-copyright .links .last {
+	margin-top: 10px
+}
+.tc-footer .tc-footer-copyright .links .last .slide {
+	margin-left: 5px
+}
+.qc-footer {
+	min-width: 1000px
+}
+.qc-footer-action {
+	background-color: #2277da;
+	position: relative
+}
+.qc-footer-action .action-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1
+}
+.qc-footer-action .footer-action {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 50;
+	overflow: hidden
+}
+.qc-footer-action .op-btns, .qc-footer-action .text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #fff
+}
+.qc-footer-action .text {
+	font-size: 24px;
+	margin-right: 20px;
+	line-height: 35px
+}
+.qc-footer-action .op-btns .bt {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	border: 1px solid #fff;
+	line-height: 35px;
+	border-radius: 2px;
+	padding-left: 45px;
+	padding-right: 45px;
+	-webkit-transition: background-color .4s;
+	transition: background-color .4s;
+	margin-left: 30px;
+	margin-right: 30px
+}
+.qc-footer-action .op-btns .bt:hover {
+	background-color: #fff;
+	color: #2277da
+}
+.qc-footer-service {
+	background: #2e3033
+}
+.qc-footer-service .footer-service {
+	max-width: 1200px;
+	font-size: 0;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+	border-bottom: 1px solid #45484c
+}
+.qc-footer-service .fs-list {
+	font-size: 0;
+	padding-left: 10px;
+	padding-right: 10px
+}
+.qc-footer-service .fs-ct {
+	display: inline-block;
+	width: 21.5%;
+	vertical-align: top;
+	text-align: left
+}
+.qc-footer-service .fs-ct.item-last {
+	width: 14%
+}
+.qc-footer-service .fs-ct .item {
+	font-size: 14px;
+	color: #fff
+}
+.qc-footer-service .fs-ct .item .icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 10px
+}
+.qc-footer-service .fs-ct .item .icon-1 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 44.230000000000004% 72.44%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item .icon-2 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 44.230000000000004% 99.21%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item .icon-3 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 0.64% 72.44%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item .icon-4 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 87.82% 99.21%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item .icon-5 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 66.03% 72.44%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item:hover {
+	color: #2277da
+}
+.qc-footer-service .fs-ct .item:hover .icon-1 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 22.439999999999998% 99.21%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item:hover .icon-2 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 66.03% 99.21%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item:hover .icon-3 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 22.439999999999998% 72.44%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item:hover .icon-4 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 0.64% 99.21%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-service .fs-ct .item:hover .icon-5 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 87.82% 72.44%;
+	background-size: 587.5% 496.875%;;
+	background-repeat: no-repeat
+}
+.qc-footer-website {
+	background: #2e3033;
+	padding: 30px 0 0
+}
+.qc-footer-website .website-columns {
+	max-width: 1180px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center;
+	border-bottom: 1px solid #45484c;
+	padding-left: 10px;
+	padding-right: 10px
+}
+.qc-footer-website .columns {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 21.5%;
+	margin-bottom: 20px
+}
+.qc-footer-website .columns.column-follow {
+	width: 14%
+}
+.qc-footer-website .columns h3 {
+	margin-bottom: 15px
+}
+.qc-footer-website .columns .ct-title {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400
+}
+.qc-footer-website .columns ul li, .qc-footer-website .columns ul li a {
+	font-size: 12px;
+	color: #ccc;
+	display: block
+}
+.qc-footer-website .columns ul li {
+	line-height: 26px
+}
+.qc-footer-website .columns ul li a:hover {
+	color: #2277da
+}
+.qc-footer-website-node-wechat img {
+	width: 62px;
+	height: 62px
+}
+.qc-footer-website .columns .footer-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px
+}
+.qc-footer-website .columns .m-text {
+	display: none
+}
+.qc-footer-website .columns .icon-1 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	width: 16px;
+	height: 16px;
+	background-position: 54.65% 51.74999999999999%;
+	background-size: 1175% 993.75%;;
+	background-repeat: no-repeat
+}
+.qc-footer-website .columns .icon-1:hover {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 65.12% 51.74999999999999%;
+	background-size: 1175% 993.75%;;
+	background-repeat: no-repeat
+}
+.qc-footer-website .columns .icon-2 {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	width: 16px;
+	height: 16px;
+	position: relative;
+	background-position: 75.58% 51.74999999999999%;
+	background-size: 1175% 993.75%;;
+	background-repeat: no-repeat
+}
+.qc-footer-website .columns .icon-2:hover {
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	background-position: 86.05000000000001% 51.74999999999999%;
+	background-size: 1175% 993.75%;;
+	background-repeat: no-repeat
+}
+.qc-footer-website .columns .qr-img {
+	display: none;
+	position: absolute;
+	bottom: 23px;
+	left: -33px
+}
+.qc-footer-website .columns .icon-2:hover .qr-img {
+	display: block
+}
+.qc-footer-website .m-call {
+	display: none
+}
+.qc-footer-website .m-qr {
+	display: none;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	z-index: 110;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #000;
+	background-color: rgba(0,0,0,.8)
+}
+.qc-footer-website .m-qr .qr-img {
+	width: 200px;
+	height: 200px;
+	margin: 100px auto 0
+}
+.qc-footer-website .m-qr .op {
+	text-align: center;
+	font-size: 14px;
+	color: #ccc;
+	line-height: 40px
+}
+.qc-footer-blogroll {
+	background: #2e3033;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 35px
+}
+.qc-footer-blogroll .blogroll-inner {
+	margin: 0 auto;
+	max-width: 1180px;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px
+}
+.qc-footer-blogroll .link-set {
+	display: inline-block
+}
+.qc-footer-blogroll .department {
+	line-height: 32px
+}
+.qc-footer-blogroll .slide {
+	color: #ccc;
+	font-size: 12px;
+	margin-right: 10px;
+	word-wrap: break-word
+}
+.qc-footer-blogroll a.slide:hover {
+	color: #2277da
+}
+.qc-footer-blogroll .department .icon-tc {
+	display: inline-block;
+	width: 91px;
+	height: 16px;
+	background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png);
+	background-image: -webkit-image-set(url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927-svg.png)1x,url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/portal/css/sprite/global-201703061927.svg) 2x);
+	margin-right: 20px;
+	background-position: 1.03% 51.74999999999999%;
+	background-size: 206.59340659340663% 993.75%;;
+	background-repeat: no-repeat
+}
+.qc-footer-blogroll .links {
+	line-height: 20px
+}
+.qc-footer-blogroll .locale {
+	position: absolute;
+	bottom: 0;
+	right: 10px
+}
+.qc-footer-blogroll .locale .locale-link {
+	color: #ccc;
+	font-size: 12px
+}
+.qc-footer-blogroll .locale .locale-link.selected, .qc-footer-blogroll .locale .locale-link:hover {
+	color: #2277da
+}
+.qc-footer-blogroll .locale .stick {
+	color: #ccc;
+	font-size: 10px;
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+ul,li {
+    margin: 0;
+    padding: 0;
+}
