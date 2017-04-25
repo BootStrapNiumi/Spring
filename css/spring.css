@@ -18,7 +18,7 @@ body {
 .container{
 	width: 100%;
 	height:auto;
-	background-color: #B2DBA1;
+	background-color: #004444;
 }
 .starter-show{
 	height: auto;
@@ -49,7 +49,7 @@ li {list-style-type:none;}
 }
 
 .footer {
-	background-color: #B2DBA1;
+	background-color:  #004444;
 	width: 100%;
 	height:300px;
 	margin: 0 auto;
